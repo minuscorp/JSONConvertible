@@ -4,14 +4,19 @@ jobs:
   include:
     - os: linux
       dist: trusty
+      rvm:
+        - 2.4
+        - 2.5
+        - 2.6
+        - 2.7
+        - 3.0
     - os: osx
       osx_image: xcode12.5
-
-rvm:
-  - 2.4
-  - 2.5
-  - 2.6
-  - 2.7
-  - 3.0
+      rvm:
+        - 2.4
+        - 2.5
+        - 2.6
+        - 2.7
+        - 3.0
 
 script: 'bundle exec rake'
