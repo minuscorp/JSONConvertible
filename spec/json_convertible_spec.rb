@@ -305,5 +305,10 @@ module JSONConvertible
       object = MockJSONConvertibleWithNoParams.from_json!(object_dictionary)
       expect(object.one_attribute).to eql("robot")
     end
+
+    it "Allows to encode to a JSON object from within an instance method" do
+      json = mock_object.to_json
+      expect(json).to eql("{\"one_attribute\":\"Hello\",\"other_attribute\":\"1970-01-01 01:00:00 +0100\"}")
+    end
   end
 end
