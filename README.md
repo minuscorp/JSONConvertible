@@ -1,5 +1,5 @@
 # JSONConvertible
-[![Build Status](https://travis-ci.org/minuscorp/JSONConvertible.png?branch=master)](https://travis-ci.org/minuscorp/JSONConvertible) 
+[![Build Status](https://travis-ci.org/minuscorp/JSONConvertible.svg?branch=main)](https://travis-ci.org/minuscorp/JSONConvertible) 
 [![Gem Version](https://badge.fury.io/rb/json_convertible.png)](http://badge.fury.io/rb/json_convertible)
 [![Coverage Status](https://coveralls.io/repos/minuscorp/JSONConvertible/badge.png)](https://coveralls.io/r/minuscorp/JSONConvertible)
 
