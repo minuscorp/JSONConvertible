@@ -1,6 +1,6 @@
 # JSONConvertible
 [![Build Status](https://travis-ci.org/minuscorp/JSONConvertible.svg?branch=main)](https://travis-ci.org/minuscorp/JSONConvertible) 
-[![Gem Version](https://badge.fury.io/rb/json_convertible.png)](http://badge.fury.io/rb/json_convertible)
+[![Gem Version](https://badge.fury.io/rb/json_convertible.svg)](https://badge.fury.io/rb/json_convertible)
 [![Coverage Status](https://coveralls.io/repos/github/minuscorp/JSONConvertible/badge.svg?branch=main)](https://coveralls.io/github/minuscorp/JSONConvertible?branch=main)
 
 A lightweight Ruby mixin for encoding and decoding JSON data classes.
