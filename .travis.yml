@@ -1,6 +1,11 @@
 language: ruby
 
-osx_image: xcode12.5
+jobs:
+  include:
+    - os: linux
+      dist: trusty
+    - os: osx
+      osx_image: xcode12.5
 
 rvm:
   - 2.4
