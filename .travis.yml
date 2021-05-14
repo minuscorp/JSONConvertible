@@ -1,5 +1,6 @@
 before_install:
-  - gem install bundler
+  - gem sources --add https://rubygems.org/
+  - gem install bundler -v 2.2.9
 
 os:
   - linux
